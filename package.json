@@ -1,0 +1,14 @@
+{
+  "name": "lerna-repo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "cheneg733 <1170725964@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^6.5.1"
+  },
+  "private":"true",
+  "workspaces": [
+    "packages/*"
+  ]
+}
